@@ -1,5 +1,7 @@
 package test;
 
+import java.lang.reflect.Method;
+
 public class AmazonExecution {
 
 	public static void main(String[] args) throws Exception {
@@ -13,15 +15,15 @@ public class AmazonExecution {
 	//	AmazonAutomationScripts.TestID007();
 	//	AmazonAutomationScripts.TestID008();
 	//	AmazonAutomationScripts.TestID009();
-		AmazonAutomationScripts.TestID0010();
-		AmazonAutomationScripts.TestID0011();
-		AmazonAutomationScripts.TestID0012();
+	//	AmazonAutomationScripts.TestID0010();
+	//	AmazonAutomationScripts.TestID0011();
+	//	AmazonAutomationScripts.TestID0012();
 		
 	
 		
 		
 		
-		/*
+		
 		String [][] recData =AmazonAutomationScripts.readExcel("C:/Users/vani/Desktop/EXE_Files/AmazonSuit_Copy.xls", "Sheet1");
 
 		String automationScript ;
@@ -34,7 +36,7 @@ public class AmazonExecution {
 				ts.invoke(ts);
 
 				}
-		*/
+		
 		
 	
 	}
